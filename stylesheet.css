@@ -1,0 +1,241 @@
+
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+    width: 100%;
+}
+
+.header{
+    height: 80px;
+    background-color: #226ED8;
+    display: flex;
+    padding: 0 160px;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    z-index: 200px;
+}
+
+.FraseDia{
+    position: fixed;
+    height: 119px;
+    width: 620px;
+    left: 160px;
+    top: 112px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    display: flex;
+    padding: 16px;
+    text-align: justify;
+    margin-top: 32px; 
+}
+
+.FraseIMG{
+    height: 60px;
+    width: 60px;
+    left: 176px;
+    top: 128px;
+    border-radius: 0px;
+    flex-direction: row;
+    margin-right: 7px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 263px;
+    margin-left: 160px;
+}
+
+.afazer{
+    background-color: #E5E5E5;
+    height: 376px;
+    width: 960px;
+    left: 160px;
+    top: 263px;
+}
+
+.andamento {
+    background-color: #E5E5E5;
+    height: 376px;
+    width: 960px;
+    left: 160px;
+    top: 263px
+
+}
+.feito{
+    background-color: #E5E5E5;
+    height: 376px;
+    width: 960px;
+    left: 160px;
+    top: 263px;
+
+}
+
+.tasks-container{
+    width: 293px;
+    background-color: #EEEEEE;
+    color: #141414;
+    text-align: center;
+    height: 337px;
+    border-radius: 10px;
+    margin-top: 32px;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.afazerIMG{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.task1{
+    height: 74px;
+    width: 253px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-left: 15px; 
+    padding: 5px;
+ 
+}
+
+.task1IMG{
+    display: flex;
+    justify-content: space-between;
+    height: 16px; 
+    align-items: center;
+    margin-right: 10px;
+}
+
+.task1IMG2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.task2{
+    height: 116px;
+    width: 253px;
+    left: 0px;
+    top: 88px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 15px; 
+    padding: 5px;
+}
+.task2IMG1{
+    display: flex;
+    justify-content: space-between;
+    height: 16px; 
+    align-items: center;
+    margin-right: 10px;
+}
+.task2IMG2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+.task3{
+    height: 74px;
+    width: 253px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-left: 15px; 
+    padding: 5px; 
+    margin-top: 20px;
+}
+
+.task3IMG1{
+    display: flex;
+    justify-content: space-between;
+    height: 16px; 
+    align-items: center;
+    margin-right: 10px;
+}
+.task3IMG2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+.task4{
+    height: 74px;
+    width: 253px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-left: 15px; 
+    padding: 5px; 
+}
+
+.task4IMG1{
+    display: flex;
+    justify-content: space-between;
+    height: 16px; 
+    align-items: center;
+    margin-right: 10px;
+}
+.task4IMG2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+.botoes1{
+    display:flex ;
+    justify-content: space-between;
+    padding: 5px;
+}
+.task5{
+    height: 74px;
+    width: 253px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-left: 15px; 
+    padding: 5px; 
+}
+.task5IMG1{
+    display: flex;
+    justify-content: space-between;
+    height: 16px; 
+    align-items: center;
+    margin-right: 10px;
+}
+.task5IMG2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+.botoes2{
+    display:flex ;
+    justify-content: space-between;
+    padding: 5px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #114FA7;
+    color: white;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
