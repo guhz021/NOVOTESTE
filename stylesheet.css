@@ -5,6 +5,10 @@ body{
     width: 100%;
 }
 
+button{
+    border: none;
+}
+
 .header{
     height: 5rem;
     background-color: #226ED8;
@@ -268,7 +272,7 @@ body{
     justify-content: center;
     height: 26.313rem;
     width: 29.625rem;
-    background-color: aqua;
+    background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
     margin-top: 9.375rem;
@@ -306,20 +310,29 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 0.875rem;
 }
+
 .cinzaimg{
     margin-top: 2.5rem;  
 }
 
 #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    position: fixed;
+    display: none; 
+    width: 100%; 
+    height: 100%; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: pointer; 
+  }
+
+  .no-background{
+    background-color: #E5E5E5;
+  }
+  
+  .no-background2{
+    background-color: #FFFFFF
   }

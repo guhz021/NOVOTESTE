@@ -1,13 +1,20 @@
-//variaveis
-const ToggleBtn = document.selectbyid('adicionar');
-const divList = document.selectbyid('.overlay');
+//abrie e fechar
+const ToggleBtn2 = document.getElementById('ToggleBtn2');
+const ToggleBtn = document.getElementById('adicionar');
+const divList = document.getElementById('overlay');
+ToggleBtn.addEventListener('click', () => {
+  if (divList.style.display === 'block') {
+    divList.style.display = 'none';
+  } else {
+    divList.style.display = 'block';
+  }
+});
 
-ToggleBtn.addEventListener('click', () =>{
-  if(divList.style.display === 'none'){
-    divList.style.display ='block';
-    ToggleBtn.InnerHTML = 'Hide List'
-  }else{
-    divList.style.display ='none';
-    ToggleBtn.InnerHTML = 'Show List'
+
+ToggleBtn2.addEventListener('click', () => {
+  if (divList.style.display === 'block') {
+    divList.style.display = 'none';
+  } else {
+    divList.style.display = 'block';
   }
 });
